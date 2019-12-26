@@ -22,28 +22,7 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
-<body>
-  <meta charset="UTF-8">
-  <title>SIM</title>
-  <meta name="description" content="РомФарма - Юг">
-  <meta name="keywords" content="">
-  <meta property="og:title" content="" />
-  <meta property="og:type" content="" />
-  <meta property="og:url" content="" />
-  <meta property="og:image" content="" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#2d89ef">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
+<body class="body--white">
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
     style="height: 0; width: 0; position: absolute; top: -99999px; left: -99999px; visibility: hidden;">
     <symbol id="i-chevron" viewBox="0 0 14 8">
@@ -78,7 +57,7 @@
             </div>
           </div>
           <div class="m-header__logo">
-            <img src="assets/img/logo-m.png" alt="">
+            <img src="assets/img/logo-white.png" alt="">
           </div>
           <div class="m-header__actions">
             <a href="#" class="m-header__actions-btn">
@@ -92,10 +71,12 @@
       </div>
     </div>
   </div>
-    <header class="header">
+  <header class="header header--white">
     <div class="container">
       <div class="header-top">
-        <div class="header-top_logo"><img src="assets/img/header-top/general1.png"></div>
+        <div class="header-top_logo">
+          <img src="../assets/img/logo-white.png">
+        </div>
         <div class="header-top_nav">
           <nav>
             <ul>
@@ -105,7 +86,7 @@
               <a href="/tarifs.html">
                 <li>Тарифы</li>
               </a>
-              <a href="#">
+              <a href="/numbers-beeline.html">
                 <li>Номера</li>
               </a>
               <a href="/product-cat.html">
@@ -119,12 +100,12 @@
         </div>
         <div class="header-top_checkout">
           <div id="cart-btn" class="shop-cart">
-            <img src="assets/img/header-top/Group.png">
+            <img src="assets/img/icons/cart-b.png">
             <div class="shop-cart_rectangle"></div>
           </div>
           <div class="search">
             <div id="search-btn" class="search-btn">
-              <img src="assets/img/header-top/Vector.png" alt="">
+              <img src="assets/img/icons/search-b.png" alt="">
             </div>
             <input type="text" id="search-input" class="search_bottom" placeholder="Поиск">
           </div>
@@ -133,52 +114,98 @@
     </div>
   </header>
 
+
   <div class="block block--pdt100">
     <div class="container">
-      <div class="block__title">Тарифы</div>
+      <div class="block__title block__title--mb30">Тарифы</div>
+      <div class="block__tabbar">
+        <div class="grid60 grid60--fend">
+          <div class="grid60__item">
+            <a href="/numbers-beeline.html" class="tab-btn tab-btn--orange">
+              <div class="tab-btn__pic">
+                <img src="assets/img/operators/beeline-black.png" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="grid60__item">
+            <a href="/numbers-mts.html" class="tab-btn tab-btn--red is-active">
+              <div class="tab-btn__pic">
+                <img src="assets/img/operators/mts-black.png" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="grid60__item">
+            <a href="/numbers-megafon.html" class="tab-btn tab-btn--purple">
+              <div class="tab-btn__pic">
+                <img src="assets/img/operators/megafon-black.png" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="grid60__item">
+            <a href="/numbers-tele2.html" class="tab-btn tab-btn--gray">
+              <div class="tab-btn__pic">
+                <img src="assets/img/operators/tele-black.png" alt="">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
       <div class="block__content">
         <div class="block__row">
           <div class="block__row-sidebar">
-            
+            <div class="numbers-filter-wrapper">
+              <div class="numbers-filter numbers-filter--mts">
+                <p>Категории <img src="/assets/img/numbers/main/Vector.svg" alt=""></p>
+                <ul>
+                  <li class="numbers-filter_active--mts">Пакеты минут +
+                    безлимитный интернет!</li>
+                  <li>Подключим тариф на ваш номер!</li>
+                  <li>Безлимитный интернет
+                    для модема, роутера, телефона</li>
+                  <li>Красивые и городские номера</li>
+                  <li>Супер выгодные тарифы</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="block__row-wrap">
             <div class="tarifs">
               <div class="grid">
                 <div class="grid__item">
-                  <a href="/tarifs-beeline.html" class="tarifs__card tarifs__card--orange">
-                    <div class="operator-card">
-                      <div class="operator-card__pic">
-                        <img src="assets/img/operators/beeline.png" alt="">
+                  <div class="tarifs__card tarifs__card--red">
+                    <div class="tarifs-card">
+                      <div class="tarifs-card__wrap">
+                        <div class="tarifs-card__logo">
+                          <img src="assets/img/operators/mts-black.png" alt="">
+                        </div>
+                        <div class="tarifs-card__title">Безлимитный интернет</div>
+                        <div class="tarifs-card__range">
+                          <img src="assets/img/range/mts.png" alt="">
+                        </div>
+                        <div class="tarifs-card__price">400<span>₽ /мес</span></div>
+                        <div class="tarifs-card__btn--mts">Подробнее</div>
+                        <div class="tarifs-card__label--mts">новый номер/ цена 1000 ₽</div>
                       </div>
                     </div>
-                  </a>
+                  </div>
                 </div>
                 <div class="grid__item">
-                  <a href="/tarifs-mts.html" class="tarifs__card tarifs__card--red">
-                    <div class="operator-card">
-                      <div class="operator-card__pic">
-                        <img src="assets/img/operators/mts.png" alt="">
+                  <div class="tarifs__card tarifs__card--red">
+                    <div class="tarifs-card">
+                      <div class="tarifs-card__wrap">
+                        <div class="tarifs-card__logo">
+                          <img src="assets/img/operators/mts-black.png" alt="">
+                        </div>
+                        <div class="tarifs-card__title">Безлимитный интернет</div>
+                        <div class="tarifs-card__range">
+                          <img src="assets/img/range/mts.png" alt="">
+                        </div>
+                        <div class="tarifs-card__price">275<span>₽ /мес*</span></div>
+                        <div class="tarifs-card__btn--mts">Подробнее</div>
+                        <div class="tarifs-card__label--mts">*175р/мес первые 6 мес</div>
                       </div>
                     </div>
-                  </a>
-                </div>
-                <div class="grid__item">
-                  <a href="/tarifs-megafon.html" class="tarifs__card tarifs__card--purple">
-                    <div class="operator-card">
-                      <div class="operator-card__pic">
-                        <img src="assets/img/operators/megafon.png" alt="">
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="grid__item">
-                  <a href="/tarifs-tele2.html" class="tarifs__card tarifs__card--white">
-                    <div class="operator-card">
-                      <div class="operator-card__pic">
-                        <img src="assets/img/operators/tele.png" alt="">
-                      </div>
-                    </div>
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -187,7 +214,6 @@
       </div>
     </div>
   </div>
-  
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -201,6 +227,7 @@
             <img class="social__item" src="/assets/img/footer/Vector (2).svg" alt="">
             <img class="social__item" src="/assets/img/footer/Vector (3).svg" alt="">
           </div>
+
           <a href="tel:+79279555757">8 927 955-57-57</a>
         </div>
       </div>

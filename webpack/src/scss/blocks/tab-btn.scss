@@ -2,13 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 192px;
   height: 63px;
   opacity: 0.3;
   transition: .25s;
   border: 1px solid;
   border-radius: 0px 10px;
   cursor: pointer;
+
+  @media ($m-s) {
+    width: 192px;
+  }
 
   &:hover, &.is-active {
     opacity: 1;

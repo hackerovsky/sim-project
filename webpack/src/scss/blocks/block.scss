@@ -19,7 +19,7 @@
   color: #fff;
 
   .body--white & {
-    color: #000;
+    color: #333;
   }
   
   &:not(:last-child) {
@@ -37,6 +37,11 @@
 
 .block__row {
   display: flex;
+  flex-wrap: wrap;
+
+  @media ($m-s) {
+    flex-wrap: nowrap;
+  }
 }
 
 .block__row-sidebar {
@@ -46,5 +51,9 @@
 }
 
 .block__row-wrap {
-  width: calc(100% - 258px - 46px);
+  width: 100%;
+  
+  @media ($m-s) {
+    width: calc(100% - 258px - 46px);
+  }
 }

@@ -127,10 +127,31 @@
             margin-bottom: 30px;
             /* 6666 */
             color: #666666;
+            transition: .25s;
+            cursor: pointer;
+            border-radius: 0px 10px; 
+
+            &:hover {
+              background: #FFDC7D;
+              border-radius: 0px 10px; 
+            }
+
+            .numbers-filter--mts &:hover {
+              background: #E30613;
+              border-radius: 0px 10px; 
+            }
         }
-        &_active, &:hover {
+
+        
+        &_active {
             /* beeline */
             background: #FFDC7D;
+            border-radius: 0px 10px;
+        }
+        &_active--mts {
+            /* beeline */
+            color: #fff!important;
+            background: #E30613;
             border-radius: 0px 10px;
         }
         & p {
@@ -217,4 +238,10 @@
              }
          }
      }
+}
+
+.numbers-filter--mts ul li:hover {
+    color: #fff;
+    background: #E30613;
+    border-radius: 0px 10px; 
 }

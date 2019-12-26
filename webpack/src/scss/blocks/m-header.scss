@@ -68,6 +68,10 @@
   width: 64px;
   height: 42px;
   margin: 0 auto;
+
+  & > img {
+    max-width: 100%;
+  }
 }
 
 .m-header__actions {

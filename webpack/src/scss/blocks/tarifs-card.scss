@@ -6,6 +6,11 @@
   // align-items: center;
   height: 100%;
   padding: 25px 0 0 0;
+  transition: .25s;
+
+  &:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .tarifs-card__wrap {
@@ -34,6 +39,11 @@
   font-weight: 600;
   line-height: 1.387em;
   font-family: 'OfficinaSerifC', Arial, Helvetica, sans-serif;
+
+  .tarifs__card--red & {
+    font-family: 'Corpid', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
 }
 
 .tarifs-card__subtitle {
@@ -66,6 +76,11 @@
     font-weight: 400;
     line-height: 1.4em;
   }
+
+  .tarifs__card--red & {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
 }
 
 .tarifs-card__price-string {
@@ -84,6 +99,34 @@
   font-weight: 400;
   background-color: #FFBA00;
   color: #333333;
+}
+
+.tarifs-card__btn--mts {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 58px;
+  margin-top: 30px;
+  font-size: 24px;
+  font-family: 'Corpid', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #E30613;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .25s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  & > span {
+    position: relative;
+    z-index: 2;
+  }
 }
 
 .tarifs-card__label {
@@ -105,6 +148,28 @@
     margin: 0 auto;
     text-transform: none;
     text-align: center;
+    font-weight: 400;
+  }
+
+  &--mts {
+    position: relative;
+    margin-top: 30px;
+    font-family: 'Corpid', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 400;
+  }
+
+  &--megafon {
+    position: relative;
+    margin-top: 30px;
+    font-family: 'Corpid', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 15px;
+    text-transform: none;
     font-weight: 400;
   }
 }

@@ -1,5 +1,9 @@
 .block {
   
+  &--pdt100 {
+    padding-top: 100px;
+  }
+  
   &:not(:last-child) {
     margin-bottom: 100px;
   }
@@ -13,8 +17,34 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
+
+  .body--white & {
+    color: #000;
+  }
   
   &:not(:last-child) {
     margin-bottom: 60px;
   }
+
+  &--mb30:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.block__tabbar {
+  margin-bottom: 60px;
+}
+
+.block__row {
+  display: flex;
+}
+
+.block__row-sidebar {
+  flex-shrink: 0;
+  width: 258px;
+  margin-right: 46px;
+}
+
+.block__row-content {
+  width: calc(100% - 258px - 46px);
 }

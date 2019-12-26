@@ -2,6 +2,14 @@ body {
   min-height: 100vh;
   font-family: $f-avenir;
   color: #444444;
+  background-color: #000000;
+}
+
+.body {
+
+  &--white {
+    background-color: #fff;
+  }
 }
 
 .wrapper {

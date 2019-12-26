@@ -1,0 +1,44 @@
+.tab-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 192px;
+  height: 63px;
+  opacity: 0.3;
+  transition: .25s;
+  border: 1px solid;
+  border-radius: 0px 10px;
+  cursor: pointer;
+
+  &:hover, &.is-active {
+    opacity: 1;
+  }
+  
+  &--orange {
+    border-color: #FFDC7D;
+  }
+
+  &--purple {
+    border-color: #B808D4;
+  }
+
+  &--red {
+    border-color: #E30613;
+  }
+
+  &--white {
+    border-color: #FFF;
+  }
+
+  &--gray {
+    border-color: #b9b9b9;
+  }
+}
+
+.tab-btn__pic {
+  padding: 0 24px;
+
+  & > img {
+    max-width: 100%;
+  }
+}

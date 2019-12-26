@@ -3,6 +3,11 @@
   background: #000;
   color: #ffffff;
 
+  &--white {
+    background: #ffffff;
+    color: #000;
+  }
+
   @media ($m-l) {
     display: block;
   }

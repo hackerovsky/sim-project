@@ -1,0 +1,21 @@
+.tarifs__card {
+  height: 625px;
+  border: 2px solid;
+  border-radius: 0px 10px;  
+
+  &--orange {
+    border-color: #FFDC7D;
+  }
+
+  &--purple {
+    border-color: #B808D4;
+  }
+
+  &--red {
+    border-color: #E30613;
+  }
+
+  &--white {
+    border-color: #FFF;
+  }
+}

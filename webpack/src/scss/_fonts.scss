@@ -101,7 +101,13 @@
 }
 @font-face {
     font-family: 'OfficinaSerifC';
-    src: url('/webpack/src/fonts/officinaserifstdbook/OfficinaSerifStd-Book.otf');
+    font-weight: 400;
+    src: url('/webpack/src/fonts/officinaserifstdbook/officinareg.woff');
+}
+@font-face {
+    font-family: 'OfficinaSerifC';
+    font-weight: 600;
+    src: url('/webpack/src/fonts/officinaserifstdbook/officina.woff');
 }
 @font-face {
     font-family: 'Corpid';

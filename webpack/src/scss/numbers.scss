@@ -128,7 +128,7 @@
             /* 6666 */
             color: #666666;
         }
-        &_active {
+        &_active, &:hover {
             /* beeline */
             background: #FFDC7D;
             border-radius: 0px 10px;

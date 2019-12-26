@@ -1,0 +1,111 @@
+.order-confirm {
+    &_bottom {
+        &-content {
+            &-text {
+                display: flex;
+                padding-bottom: 30px;
+            }
+            display: flex;
+            & span {
+                padding-left: 125px;
+                padding-right: 51px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 100%;
+                /* identical to box height, or 13px */
+
+                display: flex;
+                align-items: center;
+                letter-spacing: 1px;
+                
+                color: #979797;
+            }
+            & p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 100%;
+                /* identical to box height, or 13px */
+
+                display: flex;
+                align-items: center;
+                letter-spacing: 1px;
+
+                /* white */
+
+                color: #FFFFFF;
+            }
+        }
+        &-text {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 140%;
+            /* or 42px */
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+    &-main {
+        font-family: 'CoreSansG';
+        &_text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 41px;
+            /* or 162% */
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            /* white */
+            color: #FFFFFF;
+            padding-bottom: 60px;
+        }
+
+        &_result {
+            display: flex;
+            &-text {
+                font-weight: bold;
+               
+                line-height: 50px;
+                /* or 105% */
+                display: flex;
+                align-items: center;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                & span {
+                    color: $orange;
+                }
+            }
+            & p {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 140%;
+                /* or 42px */
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                font-feature-settings: 'salt'on;
+                color: #979797;
+            }
+            & h3 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 140%;
+                /* or 105% */
+                display: flex;
+                align-items: center;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                padding-left: 60px;
+                /* white */
+                color: #FFFFFF;
+            }
+        }
+    }
+}

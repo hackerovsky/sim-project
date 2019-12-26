@@ -1,0 +1,307 @@
+.mts {
+    font-family: 'Corpid';
+    background: #ffffff;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 87px;
+}
+
+.popup {
+    width: 80%;
+    background: #ffffff;
+    &--megaphone {
+        font-family: 'MegaFon Graphik LC Web';
+        &--btn {
+            position: relative;
+            left: 24%;
+            background: #731982;
+            border-radius: 60px;
+            width: 226px;
+            height: 60px;
+            margin-top: 30px;
+            color: #ffffff;
+            font-size: 15px;
+            line-height: 21px;
+            /* identical to box height, or 140% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+        }
+        &--mail, &--name, &--company, &--phone {
+           
+            & p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 100%;
+                /* identical to box height, or 15px */
+               
+
+                /* dark */
+
+                position: relative;
+                left: 24%;
+                
+                color: #333333;
+            }
+            & input {
+                position: relative;
+                left: 24%;
+                
+                width: 420px;
+                height: 35px;
+                background: #FFFFFF;
+                /* Gray 5 */
+                margin: 10px 0;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 2px;
+                
+            }
+        }
+
+        &--close {
+            display: flex;
+            justify-content: flex-end;
+        }
+        &--tittle {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 31px;
+            line-height: 140%;
+            /* or 43px */
+            text-align: center;
+
+            color: #333333;
+
+        }
+    }
+    &--beeline {
+        font-family: 'OfficinaSerifC';
+        margin: 0;
+        width: 80%;
+        &--tittle {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 55px;
+            line-height: 140%;
+            /* or 77px */
+
+            display: flex;
+            align-items: center;
+
+            color: #282828;
+            margin-top: 128px;
+        }
+        &--close {
+            display: flex;
+            justify-content: flex-end;
+        }
+        &__order {
+            padding: 100px 214px;
+            width: 100%;
+            font-family: 'OfficinaSerifC';
+
+            &--btn {
+                background: #FFBA00;
+                border-radius: 50px;
+                width: 316px;
+                height: 59px;
+                position: relative;
+                transform: translateX(-50%);
+                left: 50%;
+                margin-top: 60px;
+            }
+
+            &--name,
+            &--phone,
+            &--mail,
+            &--company {
+                padding: 15px 0;
+                display: flex;
+                justify-content: space-between;
+                vertical-align: middle;
+                align-items: center;
+
+                & input {
+                    width: 420px;
+                    height: 35px;
+
+
+                    background: #FFFFFF;
+                    /* Gray 5 */
+
+                    border: 1px solid #E0E0E0;
+                    box-sizing: border-box;
+                    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 5px;
+                }
+
+                & p {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 100%;
+                    /* identical to box height, or 16px */
+
+
+
+                    color: #999999;
+                }
+            }
+
+            &--text {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 31px;
+                line-height: 140%;
+                /* or 43px */
+
+
+                color: #4D4D4D;
+            }
+        }
+    }
+
+    &--mts {
+        font-family: 'Corpid';
+
+        &__order {
+            width: 80%;
+
+            &--btn {
+                /* mtc */
+
+                background: #E30613;
+                border-radius: 5px;
+                width: 180px;
+                height: 36px;
+                color: #ffffff;
+                margin-top: 35px;
+            }
+
+            &--phone,
+            &--mail {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 0;
+
+                & p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height, or 137% */
+
+                    text-align: center;
+
+                    color: #999999;
+
+                }
+
+                & input {
+                    width: 230px;
+                    height: 35px;
+                    background: #FFFFFF;
+                    border: 1px solid #E0E0E0;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                }
+            }
+
+            &--company,
+            &--name {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 0;
+
+                & p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height, or 137% */
+
+                    text-align: center;
+
+                    color: #999999;
+                }
+
+                & input {
+                    content: '';
+                    background: #FFFFFF;
+                    /* Gray 5 */
+                    height: 35px;
+                    width: 420px;
+                    border: 1px solid #E0E0E0;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                }
+            }
+
+            &--text {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+        &__btn {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24.2px;
+            line-height: 46px;
+            /* or 190% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+            background: #e30613;
+            margin-top: 60px;
+        }
+
+        &__wifi {
+            padding: 60px 0 30px;
+
+            & span {
+                color: #e30613;
+            }
+
+            & div {
+                padding-left: 11px;
+            }
+        }
+
+        &__traffic {
+            & div {
+                padding-left: 11px;
+            }
+        }
+
+        &__wifi,
+        &__traffic {
+            display: flex;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 55px;
+            line-height: 140%;
+            /* or 77px */
+
+            display: flex;
+            align-items: center;
+        }
+    }
+}

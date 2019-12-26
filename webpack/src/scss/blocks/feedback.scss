@@ -1,0 +1,166 @@
+.feedback {
+  padding: 0 20px;
+
+  @media ($m-s) {
+    padding: 0;
+  }
+
+  & .swiper-container {
+    overflow: visible;
+  }
+  
+  & .swiper-slide {
+    opacity: 0.5;
+    transition: .25s;
+  }
+
+  & .swiper-wrapper{
+
+    align-items: center;
+  }
+
+  & .swiper-slide-active{
+    z-index: 9;
+    opacity: 1;
+  }
+
+}
+
+.feedback__slide {
+  position: relative;
+  max-width: 100%;
+  // height: 276px;
+  margin: 0 auto;
+  padding: 10px 32px;
+  color: #333;
+  background: #FFFFFF;
+  border-radius: 0px 10px;
+
+  @media ($m-s) {
+    width: 472px;
+    padding: 16px 64px;
+  }
+}
+
+.feedback__slide-inner {
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding: 16px 64px;
+  background: #FFFFFF;
+
+  .swiper-slide & {
+    opacity: 0.5;
+    transition: .25s;
+    // transform: scale(0.5);
+  }
+
+  .swiper-slide-active & {
+    z-index: 9;
+    opacity: 1;
+    // width: 600px;
+    // height: 276px;
+    // transform: translate(-50%, -50%) scale(1.5);
+    // transform: scale(1.5);
+  }
+}
+
+.feedback__slide-head {
+  display: flex;
+  align-items: center;
+}
+
+.feedback__slide-pic {
+  width: 104px;
+  margin-right: 40px;
+
+  & > img {
+    max-width: 100%;
+  }
+}
+
+.feedback__slide-title {
+  font-family: 'CoreSansG', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.389em;
+  letter-spacing: 1px;
+  color: #333;
+
+  @media ($m-s) {
+    font-size: 25px;
+  }
+}
+
+.feedback__slide-text {
+  margin-top: 15px;
+  font-family: 'CoreSansG', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.589em;
+  letter-spacing: 1px;
+  color: #333;
+
+  @media ($m-s) {
+    font-size: 18px;
+  }
+}
+
+.feedback__controls {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.feedback__controls-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 616px;
+}
+
+.feedback__controls-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  color: $c-orange;
+  cursor: pointer;
+  transition: .25s;
+
+  &--left {
+    transform: rotate(90deg);
+  }
+
+  &--right {
+    transform: rotate(-90deg);
+  }
+}
+
+.feedback__controls-progress {
+  position: relative;
+  width: 144px;
+  margin: 0 50px;
+
+  @media ($m-s) {
+    width: 292px;
+    margin: 0 92px;
+  }
+}
+
+.feedback__controls-progress-line {
+  width: 144px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 4px;
+  
+  @media ($m-s) {
+    width: 292px;
+  }
+}

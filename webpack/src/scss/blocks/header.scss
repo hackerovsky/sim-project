@@ -1,0 +1,32 @@
+.header {
+  display: none;
+  background: #000;
+  color: #ffffff;
+
+  @media ($m-l) {
+    display: block;
+  }
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+  padding-top: 50px;
+}
+.header-top_nav ul {
+  display: flex;
+}
+.header-top_nav ul li {
+  font-size: 18px;
+  padding-right: 60px;
+  font-family: 'MuseoSans', Arial, Helvetica, sans-serif;
+  transition: .25s;
+  cursor: pointer;
+
+  &:hover {
+      color: $c-orange;
+      opacity: 0.8    ;
+  }
+}

@@ -1,0 +1,12 @@
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px;
+}

@@ -1,0 +1,54 @@
+.popup {
+    &-cart {
+        font-family: 'CoreSansG';
+        left: 50%;
+        top: 120px;
+        transform: translateX(-50%);
+        
+        position: fixed;
+        top: 100px;
+        left: 50%;
+        width: 668px;
+        height: 456px;
+
+        /* bg */
+
+        background: #000000;
+
+        & img {
+
+            justify-content: flex-end;
+        }
+
+        & p {
+            display: flex;
+            justify-content: center;
+            padding: 30px 0;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 41px;
+            /* or 162% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            color: #ffffff;
+        }
+
+        & button {
+            transform: translateX(-50%);
+            left: 50%;
+        }
+
+        &_shop-img {
+            display: flex;
+            justify-content: flex-end;
+
+            &1 {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

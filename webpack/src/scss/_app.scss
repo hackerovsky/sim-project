@@ -1,0 +1,32 @@
+@import "../../node_modules/swiper/dist/css/swiper.css";
+
+@import "_vars.scss";
+@import "_fonts.scss";
+@import "_mixins.scss";
+@import "_reset.scss";
+@import "base.scss";
+
+@import "header.scss";
+@import "main.scss";
+@import "tarifs.scss";
+@import "footer.scss";
+@import "product-cat.scss";
+@import "product.scss";
+@import "btn.scss";
+@import "popup-cart.scss";
+@import "cart.scss";
+@import "cart-order.scss";
+@import "order-pay.scss";
+@import "order-confirm.scss";
+@import "contacts.scss";
+@import "numbers.scss";
+@import "numbers-popup.scss";
+@import "slider.scss";
+
+@import "blocks/header.scss";
+@import "blocks/m-header.scss";
+@import "blocks/menu-btn.scss";
+@import "blocks/block.scss";
+@import "blocks/hits-slider.scss";
+@import "blocks/question.scss";
+@import "blocks/feedback.scss";

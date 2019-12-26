@@ -1,0 +1,49 @@
+.tarifs-main {
+    background: #000;
+    font-family: 'CoreSansG'
+}
+.tarifs-main h1 {
+    color: #ffffff;
+    padding: 100px 0 60px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+.tarifs_block-wrapper {
+    width: 50%;
+}
+.tarifs_block {
+    width: 390px;
+    height: 625px;
+    border: 1px solid #FFDC7D;
+    border-radius: 0px 10px;
+    position: relative;
+    
+    margin-bottom: 62px;
+}
+.tarifs_block-inner {
+    display: flex;
+    justify-content: flex-end;
+}
+.tarifs_block img {
+    display: flex;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.d-flex {
+    display: flex;  
+}
+.tarifs_block-mts {
+    border: 1px solid #E30613;
+    border-radius: 0px 10px;
+}
+.tarifs_block-megaphone {
+    border: 1px solid purple;
+    border-radius: 0px 10px;
+}
+.tarifs_block-tele2 {
+    border: 1px solid #ffffff;
+    border-radius: 0px 10px;
+}

@@ -1,0 +1,138 @@
+.product {
+    &-wrapper {
+        display: flex;
+        
+    }
+    &-slider {
+        &_item {
+            width: 498px;
+            height: 459px;
+            margin-left: 182px;
+        }
+    }
+    &-work_sim {
+        font-family: 'CoreSansG';
+        font-weight: bold;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding-bottom: 31px;
+        & img {
+            display: flex;
+            padding: 30px 0;
+        }
+    }
+    &-text {
+        font-family: 'CoreSansG';
+        color: #ffffff;
+        margin-left: 78px;
+        position: relative;
+        & p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 140%;
+            /* or 21px */
+
+            display: flex;
+            align-items: center;
+            padding: 30px 0;
+        }
+        & h2 {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 50px;
+            /* or 105% */
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            & span {
+                color: $orange;
+            }
+        }
+        h1 {
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 140%;
+            /* or 50px */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        &_character {
+            &-text {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #ffffff;
+                &_bottom {
+                    display: flex;
+                    justify-content: space-between;
+                    & span, p {
+                        padding: 20px 0;
+                    }
+                    & span {
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 100%;
+                        /* identical to box height, or 13px */
+
+                        display: flex;
+                        align-items: center;
+                        letter-spacing: 1px;
+
+                        color: #979797;
+                    }
+                    & p {
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 100%;
+                        /* identical to box height, or 13px */
+
+                        display: flex;
+                        align-items: center;
+                        letter-spacing: 1px;
+
+                        /* white */
+
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+    &-adjacent {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'MuseoSans';
+        
+        & ul li {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 140%;
+            /* or 21px */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            color: #ffffff;
+            &:first-child {
+                color: $orange;
+            }
+        }
+        &_title {
+            display: block;
+            
+        }
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    &-padding {
+        padding: 66px 0;
+    }
+}

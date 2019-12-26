@@ -1,0 +1,41 @@
+.order-pay {
+    &_visa {
+        &-wrapper {
+            display: flex;
+        }
+        &-block {
+            font-family: 'CoreSansG';
+            width: 309px;
+            height: 183px;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            /* orange */
+            align-items: center;
+            border: 1px solid $orange;
+            border-radius: 0px 10px;
+            padding: 48px 53px;
+            margin-right: 60px;
+            & p {
+                width: 100%;
+                text-align: center;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 100%;
+                /* or 20px */
+
+                display: flex;
+                align-items: center;
+                letter-spacing: 1px;
+
+                /* white */
+
+                color: #FFFFFF;
+            }
+        }
+        &-cart {
+            margin: 0 auto;
+        }
+    }
+}

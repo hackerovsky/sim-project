@@ -1,0 +1,199 @@
+.order {
+    &-delivery {
+        &_block {
+            width: 310px;
+            height: 63px;
+            border: 1px solid $orange;
+            border-radius: 0px 10px;
+            position: relative;
+            align-items: center;
+            display: flex;
+            margin-bottom: 30px;
+            justify-content: space-between;
+            
+        }
+
+        &_text {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            padding: 0 23px;
+            & span {
+                color: $orange;
+            }
+        }
+    }
+
+    &-check {
+        display: flex;
+        align-items: center;
+        margin-top: 31px;
+
+        & h1 {
+            margin-left: 31px;
+            width: 534px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            /* or 139% */
+
+            color: #ffffff;
+
+            & span {
+                color: $orange;
+            }
+        }
+    }
+
+    &-checkbox {
+        width: 34px;
+        height: 34px;
+        left: 108px;
+        top: 995px;
+
+        /* orange */
+        background: none;
+        border: 1px solid #F47C0C;
+        box-sizing: border-box;
+
+    }
+
+    &-country {
+        display: flex;
+        &-block {
+            &_2 {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                
+            }
+        }
+        &-home {
+            background: #ffffff;
+            padding: 10px 20px;
+            margin-top: 30px;
+            font-family: 'MuseoSans';
+            margin-right: 17px;
+            border-radius: 5px;
+
+            &-wrapper {
+                display: flex;
+            }
+        }
+
+        &_text {
+            display: flex;
+
+            & img {
+                margin-left: 14px;
+            }
+        }
+
+        & p {
+            padding: 30px 0;
+            color: #ffffff;
+        }
+
+        &-street {
+            width: 476px;
+            background: #ffffff;
+            padding: 11px 30px;
+            margin-top: 30px;
+            border-radius: 5px;
+
+            &-text {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 28px;
+                /* identical to box height, or 187% */
+
+                display: flex;
+                align-items: center;
+                letter-spacing: 1px;
+                font-family: 'MuseoSans';
+            }
+        }
+    }
+
+    &-inputs {
+        &-wrapper {
+            display: flex;
+        }
+    }
+
+    &-input {
+        margin-right: 32px;
+
+        &-wrapper {
+            position: relative;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            bottom: 0%;
+            width: 200px;
+            /* white */
+            padding: 10px 20px;
+            background: #FFFFFF;
+            border-radius: 5px;
+
+        }
+
+        &-text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 28px;
+            /* identical to box height, or 187% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            font-family: 'MuseoSans';
+
+            & span {
+                color: $orange;
+            }
+        }
+    }
+
+    &-tittle {
+        & h1 {
+            padding: 60px 0;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 140%;
+            /* or 50px */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+
+    &-topline {
+        background: $orange;
+        margin-top: 60px;
+        display: flex;
+        height: 68px;
+        align-items: center;
+        
+        & ul {
+            display: flex;
+
+            & li {
+                opacity: 0.5;
+                padding-left: 67px;
+                color: #ffffff;
+            }
+        }
+        &_active {
+            opacity: 1!important;
+        }
+    }
+}

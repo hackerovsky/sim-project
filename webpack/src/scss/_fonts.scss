@@ -1,0 +1,113 @@
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: url('../fonts/montserrat-medium.woff') format('woff');
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: url('../fonts/montserrat-bold.woff') format('woff');
+//   font-weight: 700;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Avenir';
+//   src: url('../fonts/avenir-bold.woff') format('woff');
+//   font-weight: 700;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Avenir';
+//   src: url('../fonts/avenir-medium.woff') format('woff');
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Avenir';
+//   src: url('../fonts/avenir-regular.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+@font-face {
+    font-family: 'CoreSansG';
+    src: url('/webpack/src/fonts/coresans/CoreSansG-Regular.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CoreSansG';
+    src: url('/webpack/src/fonts/coresans/CoreSansG-Thin.ttf') format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CoreSansG';
+    src: url('/webpack/src/fonts/coresans/CoreSansGRounded-Bold.ttf') format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CoreSansG';
+    src: url('/webpack/src/fonts/coresans/CoreSansGRounded-ExtraBold.ttf') format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CoreSansG';
+    src: url('/webpack/src/fonts/coresans/CoreSansGRounded-Medium.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CoreSansG';
+    src: url('/webpack/src/fonts/coresans/CoreSansG-Heavy.ttf') format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('/webpack/src/fonts/museosans/MuseoSansCyrl-100.ttf') format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('/webpack/src/fonts/museosans/MuseoSansCyrl-300.ttf') format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('/webpack/src/fonts/museosans/MuseoSansCyrl-500.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('/webpack/src/fonts/museosans/MuseoSansCyrl-700.ttf') format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('/webpack/src/fonts/museosans/MuseoSansCyrl-900.ttf') format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OfficinaSerifC';
+    src: url('/webpack/src/fonts/officinaserifstdbook/OfficinaSerifStd-Book.otf');
+}
+@font-face {
+    font-family: 'Corpid';
+    src: url('/assets/fonts/megafon/megafon.ttf');
+}
+@font-face {
+    font-family: 'MegaFon Graphik LC Web';
+    src: url('/assets/fonts/megafon/megafon.ttf');
+}

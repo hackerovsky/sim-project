@@ -1,0 +1,232 @@
+.btn {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 184px;
+  height: 56px;
+  background: $orange;
+  border-radius: 0px 5px;
+  font-family: 'CoreSansG', Arial, sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .25s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  & > span {
+    position: relative;
+    z-index: 2;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    right: -24px;
+    bottom: -11px;
+    opacity: 0.7;
+    width: 180px;
+    height: 50px;
+    border: 1.5px solid $orange;
+    border-radius: 0px 5px;
+  }
+}
+
+.btn-prm {
+    position: absolute;
+    background: $orange;
+    border-radius: 0px 5px;
+    padding: 20px 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    bottom: 20px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 11.54%;
+        right: 0%;
+        top: 38.54%;
+        bottom: 0%;
+        opacity: 0.7;
+        /* orange */
+        width: 180px;
+        height: 50px;
+        border: 1.5px solid $orange;
+        border-radius: 0px 5px;
+    }
+}
+
+.btn-shop {
+    position: relative;
+    background: $orange;
+    border-radius: 0px 5px;
+    padding: 20px 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    bottom: 20px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 11.54%;
+        right: 0;
+        top: 24.54%;
+        bottom: 0;
+        opacity: .7;
+        width: 300px;
+        height: 55px;
+        border: 1.5px solid #f47c0c;
+        border-radius: 0 5px;
+    }
+}
+
+.btn-show-cart {
+    position: relative;
+    background: $orange;
+    border-radius: 0px 5px;
+    padding: 20px 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    bottom: -60px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 11.54%;
+        right: 0;
+        top: 24.54%;
+        bottom: 0;
+        opacity: .7;
+        width: 300px;
+        height: 55px;
+        border: 1.5px solid #f47c0c;
+        border-radius: 0 5px;
+    }
+}
+
+.btn-wallet {
+    position: relative;
+    background: $orange;
+    border-radius: 0px 5px;
+    padding: 20px 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    bottom: 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 51.54%;
+        right: 0;
+        top: 24.54%;
+        bottom: 0;
+        opacity: .7;
+        width: 300px;
+        height: 55px;
+        border: 1.5px solid #f47c0c;
+        border-radius: 0 5px;
+    }
+
+}
+.btn-data-order {
+    position: relative;
+    background: $orange;
+    border-radius: 0px 5px;
+    padding: 20px 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    bottom: 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 51.54%;
+        right: 0;
+        top: 24.54%;
+        bottom: 0;
+        opacity: .7;
+        width: 300px;
+        height: 55px;
+        border: 1.5px solid #f47c0c;
+        border-radius: 0 5px;
+    }
+}
+.btn-pay {
+    position: relative;
+    background: $orange;
+    border-radius: 0px 5px;
+    padding: 20px 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    bottom: 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 51.54%;
+        right: 0;
+        top: 24.54%;
+        bottom: 0;
+        opacity: .7;
+        width: 300px;
+        height: 55px;
+        border: 1.5px solid #f47c0c;
+        border-radius: 0 5px;
+    }
+}
+.btn-cancel {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-feature-settings: 'salt'on;
+    padding: 60px 0;
+    /* orange */
+    background: none;
+    color: #F47C0C;
+}
+.btn {
+    &--slide {
+        position: relative;
+        background: $orange;
+        border-radius: 0px 5px;
+        padding: 20px 45px;
+        color: #ffffff;
+        text-transform: uppercase;
+        bottom: 0;
+        margin-top: 10px;
+        // margin-bottom: 20px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 15.54%;
+            right: 0;
+            top: 24.54%;
+            bottom: 0;
+            opacity: .7;
+            width: 185px;
+            height: 55px;
+            border: 1.5px solid #f47c0c;
+            border-radius: 0 5px;
+        }
+    }
+}

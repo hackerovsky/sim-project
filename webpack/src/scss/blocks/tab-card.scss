@@ -1,0 +1,60 @@
+.tab-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 286px;
+  height: 63px;
+  padding: 14px 28px 14px 10px;
+  transition: .25s;
+  border: 1px solid $c-orange;
+  border-radius: 0px 10px;
+  cursor: pointer;
+
+  &:hover, &.is-active {
+    opacity: 0.8;
+  }
+  
+  &--orange {
+    border-color: #FFDC7D;
+  }
+
+  &--purple {
+    border-color: #B808D4;
+  }
+
+  &--red {
+    border-color: #E30613;
+  }
+
+  &--white {
+    border-color: #FFF;
+  }
+
+  &--gray {
+    border-color: #b9b9b9;
+  }
+}
+
+.tab-card__pic {
+  width: 93px;
+  height: 35px;
+
+  & > img {
+    max-width: 100%;
+  }
+}
+
+.tab-card__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'MuseoSans', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.400em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  transition: .7s;
+}

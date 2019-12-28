@@ -36,6 +36,7 @@
       right: 0;
       transition: bottom .2s .2s, transform .2s 0s, background-color .4s;
     }
+
   }
 
   .is-active & > span {
@@ -124,6 +125,13 @@
       &:nth-child(3) {
         bottom: 8px;
       }
+    }
+  }
+  
+  &--black {
+
+    & > span {
+      background-color: #000;
     }
   }
 }

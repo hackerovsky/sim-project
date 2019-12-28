@@ -1,0 +1,46 @@
+.category-card {
+  // max-width: 390px;
+  margin: 0 auto 0 auto;
+  padding: 60px 28px;
+  border-radius: 0px 10px;
+
+  @media ($m-s) {
+    margin: 0 0 0 1px;
+  }
+}
+
+.category-card__pic {
+  min-height: 232px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+
+  & > img {
+    max-width: 232px;
+  }
+}
+
+.category-card__title {
+  display: flex;
+  align-items: center;
+  min-height: 102px;
+}
+
+.category-card__price {
+  font-family: 'CoreSansG', Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.389em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $c-orange;
+
+  & > span {
+    font-size: 36px;
+    color: #fff;
+  }
+}
+
+.category-card__btn {
+  margin-top: 30px;
+}

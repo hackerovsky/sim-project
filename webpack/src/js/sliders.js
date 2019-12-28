@@ -43,7 +43,7 @@ var hitsSwiper = new Swiper('#hits-slider', {
 });
 
 // hits-slider
-var hitsSwiper = new Swiper('#feedback-slider', {
+var feedbackSwiper = new Swiper('#feedback-slider', {
     slidesPerView: 1,
     centeredSlides: true,
     // loop: true,
@@ -58,3 +58,43 @@ var hitsSwiper = new Swiper('#feedback-slider', {
       prevEl: '#feedback-btn-prev',
     },
 });
+
+var productThumbSwiper = new Swiper('#product-thumbs', {
+  slidesPerView: 3,
+  slidesPerGroup: 1,
+  // loop: true,
+  freeMode: true,
+  spaceBetween: 10,
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true,
+  slideActiveClass: 'is-active',
+  slideToClickedSlide: true,
+  // pagination: {
+  //     el: '#product-progress',
+  //     type: 'progressbar',
+  // },
+});
+
+// product-slider
+var productSwiper = new Swiper('#product-slider', {
+    slidesPerView: 1,
+    // loop: true,
+  // slidesPerGroup: 1,
+    spaceBetween: 20,
+    // pagination: {
+    //     el: '#product-progress',
+    //     type: 'progressbar',
+    // },
+    navigation: {
+      nextEl: '#product-btn-next',
+      prevEl: '#product-btn-prev',
+    },
+    thumbs: {
+      swiper: productThumbSwiper
+    }
+});
+
+// if ($('#product-slider').length > 0) {
+//   productSwiper.controller.control = productThumbSwiper;
+//   productThumbSwiper.controller.control = productSwiper;
+// } 

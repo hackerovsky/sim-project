@@ -39,7 +39,7 @@
   <div class="m-header">
     <div class="container">
       <div class="m-header__inner">
-        <div id="m-menu" class="m-header__menu">
+        <div id="m-menu" class="m-header__menu m-header__menu--white">
           <div class="m-header__menu-list">
             <a href="#" class="m-header__menu-item">Главная</a>
             <a href="#" class="m-header__menu-item">Тарифы</a>
@@ -50,7 +50,7 @@
         </div>
         <div class="m-header__row">
           <div data-id="m-menu" class="m-header__menu-btn js-menu-btn">
-            <div class="menu-btn">
+            <div class="menu-btn menu-btn--black">
               <span></span>
               <span></span>
               <span></span>
@@ -61,10 +61,10 @@
           </div>
           <div class="m-header__actions">
             <a href="#" class="m-header__actions-btn">
-              <img src="assets/img/icons/cart.png" alt="">
+              <img src="assets/img/icons/cart-b.png" alt="">
             </a>
             <a href="#" class="m-header__actions-btn">
-              <img src="assets/img/icons/search.png" alt="">
+              <img src="assets/img/icons/search-b.png" alt="">
             </a>
           </div>
         </div>
@@ -86,7 +86,7 @@
               <a href="/tarifs.html">
                 <li>Тарифы</li>
               </a>
-              <a href="/numbers-beeline.html">
+              <a href="#">
                 <li>Номера</li>
               </a>
               <a href="/product-cat.html">
@@ -155,8 +155,8 @@
           <div class="block__row-sidebar">
             <div class="numbers-filter-wrapper">
               <div class="numbers-filter">
-                <p>Категории <img src="/assets/img/numbers/main/Vector.svg" alt=""></p>
-                <ul>
+                <div data-id="filter-menu" class="numbers-filter__title js-menu-btn">Категории <img src="/assets/img/numbers/main/Vector.svg" alt=""></div>
+                <ul id="filter-menu">
                   <li class="numbers-filter_active">Пакеты минут +
                     безлимитный интернет!</li>
                   <li>Подключим тариф на ваш номер!</li>

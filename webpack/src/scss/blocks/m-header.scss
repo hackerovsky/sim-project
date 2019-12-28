@@ -33,6 +33,14 @@
   transition: .7s;
   opacity: 0;
 
+  &--white {
+    background-color: #fff;
+
+    & .m-header__menu-item {
+      color: #000;
+    }
+  }
+
   &.is-active {
     bottom: -320px;
     opacity: 1;

@@ -1,0 +1,68 @@
+
+// megaphone tarifs
+.numbers-filter_active--megaphone {
+  background: #00985F;
+}
+.numbers-filter--megaphone ul li:first-child {
+  color: #ffffff;
+}
+
+.tarifs-card__price--megaphone,
+.tarifs-card__title--megaphone,
+.tarifs-card__label--megaphone {
+  font-family: 'MegaFon Graphik LC Web';
+}
+.tarifs-card__title--megaphone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 140%;
+  /* or 43px */
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+.tarifs-card__price--megaphone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 100%;
+  /* identical to box height, or 60px */
+  display: flex;
+  align-items: baseline;
+  margin-top: 30px;
+  & span {
+      font-size: 30px;
+      font-weight: 400;
+  }
+}
+.tarifs-card__btn--megaphone {
+  /* megafon button */
+  color: #ffffff;
+  width: 226px;
+  height: 60px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  background: #731982;
+  border-radius: 60px;
+  margin: 30px 0;
+  cursor: pointer;
+  transition: .25s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.tarifs-card__label--megaphone {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 15px */
+  display: flex;
+  align-items: center;
+  /* dark */
+  color: #333333;
+}

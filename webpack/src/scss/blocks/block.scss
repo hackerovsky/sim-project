@@ -46,8 +46,12 @@
 
 .block__row-sidebar {
   flex-shrink: 0;
-  width: 258px;
+  width: 100%;
   margin-right: 46px;
+   
+  @media ($m-s) {
+    width: 258px;
+  } 
 }
 
 .block__row-wrap {

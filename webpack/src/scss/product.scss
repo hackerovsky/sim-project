@@ -38,6 +38,11 @@
 
         @media ($m-l) {
             margin-left: 78px;
+            flex-shrink: 1;
+        }
+
+        @media ($m-xxl) {
+            flex-shrink: 0;
         }
 
         & .p-text {

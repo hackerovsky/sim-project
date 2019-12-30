@@ -1,4 +1,5 @@
 @import "../../node_modules/swiper/dist/css/swiper.css";
+@import "../../node_modules/magnific-popup/dist/magnific-popup.css";
 
 @import "_vars.scss";
 @import "_fonts.scss";
@@ -13,7 +14,7 @@
 @import "product-cat.scss";
 @import "product.scss";
 @import "btn.scss";
-@import "popup-cart.scss";
+// @import "popup-cart.scss";
 @import "cart.scss";
 @import "cart-order.scss";
 @import "order-pay.scss";
@@ -39,5 +40,9 @@
 @import "blocks/category.scss";
 @import "blocks/category-card.scss";
 @import "blocks/category-bar.scss";
+@import "blocks/popup-cart.scss";
+@import "blocks/cart-card.scss";
+@import "blocks/order.scss";
 
 @import "dima-bugz.scss";
+@import "mfp.scss";

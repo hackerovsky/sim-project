@@ -30,6 +30,7 @@
   width: 184px;
   height: 56px;
   padding: 0 16px;
+  font-weight: 500;
   background: $orange;
   border-radius: 0px 5px;
   font-family: 'CoreSansG', Arial, sans-serif;
@@ -54,7 +55,7 @@
   &::after {
     content: '';
     position: absolute;
-    z-index: 1;
+    z-index: -2;
     right: -24px;
     bottom: -11px;
     opacity: 0.7;
@@ -62,6 +63,10 @@
     height: 50px;
     border: 1.5px solid $orange;
     border-radius: 0px 5px;
+  }
+  
+  &--auto::after {
+    width: 100%;
   }
 }
 

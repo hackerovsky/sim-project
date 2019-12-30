@@ -1,20 +1,30 @@
 .contacts {
     &-text {
         font-family: 'CoreSansG';
-        width: 704px;
-        height: 102px;
-        
-        padding: 60px 0;
+        max-width: 704px;
         color: #ffffff;
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 140%;
-        /* or 42px */
-
-        display: flex;
-        align-items: center;
         letter-spacing: 1px;
+        word-break: keep-all;
+
+        @media ($m-m) {
+            font-size: 30px;
+        }
+
+        & > p > a {
+            transition: .25s;
+
+            &:hover {
+                color: $c-orange;
+            }
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 60px;
+        }
     }
 }
 .map {

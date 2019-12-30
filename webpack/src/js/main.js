@@ -1,16 +1,13 @@
 import $ from 'jquery';
-import Swiper from 'swiper';
+import mfp from 'magnific-popup';
 
-// test
-console.log("test");
-// popup
-
-$('#test').click(function() {
-    popUpHide();
+// Inline popups
+$('.js-popup').magnificPopup({
+  removalDelay: 500, //delay removal by X to allow out-animation
+  callbacks: {
+    beforeOpen: function() {
+       this.st.mainClass = this.st.el.attr('data-effect');
+    }
+  },
+  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
 });
-
-function popUpHide() {
-    console.log("test2");
-}
-
-

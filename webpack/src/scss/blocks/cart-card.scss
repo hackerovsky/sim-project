@@ -1,0 +1,125 @@
+.cart-card {
+  position: relative;
+  display: flex;
+}
+
+.cart-card__remove-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: .25s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.cart-card__title {
+  position: relative;
+  font-family: 'CoreSansG', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.cart-card__col {
+
+  &--maw160 {
+    max-width: 160px;
+  }
+
+  &:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+.cart-card__pic {
+  width: 100%;
+  max-width: 160px;
+  height: 120px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid $c-orange;
+
+  & > img {
+    max-height: 100%;
+    // max-height: 100%;
+  }
+}
+
+.cart-card__content {
+  margin-top: 60px;
+}
+
+.cart-card__qty-control-row {
+  display: flex;
+  width: 160px;
+  margin-top: 16px;
+  border: 1px solid $c-orange;
+}
+
+.cart-card__qty-control-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3333%;
+  height: 30px;
+  cursor: pointer;
+
+  &--center {
+    border-right: 1px solid $c-orange;
+    border-left: 1px solid $c-orange;
+  }
+
+  & > span {
+    font-family: 'MuseoSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    color: #fff;
+    transition: .25s;
+  }
+
+  &:hover > span {
+    color: $c-orange;
+  }
+}
+
+.cart-card__content-row {
+  font-family: 'CoreSansG', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.cart-card__content-label {
+  color: #979797;
+  width: 104px;
+  max-width: 100%;
+}
+
+.cart-card__content-value {
+  color: #fff;
+}
